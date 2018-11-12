@@ -1,7 +1,7 @@
 # ocrpp
 OCR post processing and spelling correction.
 
-Check the following paper for further information:
+Read the following paper for further information:
 
 ```
 @inproceedings{silfverberg2016data,
