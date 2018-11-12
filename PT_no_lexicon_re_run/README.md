@@ -1,9 +1,9 @@
 This directory contains outputs (correction rate and accuracy) from a
 re-run of the Perceptron model on the Finnish historical OCR
-data. These are results *without* a lexicon.
+data. These are results **without** a lexicon.
 
 Note that, as stated in Section 7 of Silfverberg et al. 2016, we
-*combine the training set and development set* before training and
+**combine the training set and development set** before training and
 running the final model.
 
 The results for the ten folds are:
