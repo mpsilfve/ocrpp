@@ -1,5 +1,5 @@
 This directory contains outputs (correction rate and accuracy) from a
-replication of the Perceptron experiment on the Finnish historical OCR
+replication of the original 2016 Perceptron experiment on the Finnish historical OCR
 data. These are results **without** a lexicon.
 
 Note that, as stated in Section 7 of Silfverberg et al. 2016, we
