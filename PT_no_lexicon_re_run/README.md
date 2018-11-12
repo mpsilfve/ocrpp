@@ -1,5 +1,5 @@
 This directory contains outputs (correction rate and accuracy) from a
-re-run of the Perceptron model on the Finnish historical OCR
+replication of the Perceptron experiment on the Finnish historical OCR
 data. These are results **without** a lexicon.
 
 Note that, as stated in Section 7 of Silfverberg et al. 2016, we
@@ -62,3 +62,5 @@ Accuracy: (tp + tn)/(tp+tn+fp+fn): 0.87168
 Average correction rate: 0.317062
 Average accuracy: 0.870305
 ```
+
+The average correction rate is a little bit lower (0.3%-points) than in the 2016 paper. I believe this is a result of the fact that the perceptron toolkit [FinnPos](https://github.com/mpsilfve/FinnPos/tree/master/src), used in these experiments, runs beam search by default, which has a slight negative impact on the results. The original experiments in the 2016 paper used a finite-state implementation of the perceptron system which ran exact inference. Unfortunately, running the original finite-state system would have require non-trivial modifications to the code because the API of the finite-state library has changed since 2016. In any case, note that the replicated results are within the error margins given in the 2016 paper.  
