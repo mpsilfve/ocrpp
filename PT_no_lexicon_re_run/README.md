@@ -8,6 +8,7 @@ running the final model.
 
 The results for the ten folds are:
 
+```
 0.
 ec=297 ce=46 cc=2895 ee=409
 Correction Rate (tp - fp) / (tp + fn): 0.35552
@@ -60,4 +61,4 @@ Accuracy: (tp + tn)/(tp+tn+fp+fn): 0.87168
 
 Average correction rate: 0.317062
 Average accuracy: 0.870305
-
+```
